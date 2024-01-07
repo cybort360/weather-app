@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Weather App</h1>
+      </header>
+      <main>
+        <form>
+          <label for="city" class="test">Enter a location for weather information</label>
+          <input type="text" name="city" />
+        </form>
+
+        <section class="hidden">
+          <img src="https://fakeimg.pl/400x300/cccccc/ffffff" class="time" />
+          <div class="icon">
+            <img src="" alt="" />
+          </div>
+          <aside>
+            <h2>City name</h2>
+            <div class="condition">Weather Condition</div>
+            <div class="temp">
+              <span>temp</span>
+              <span>&deg;C</span>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

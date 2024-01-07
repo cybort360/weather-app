@@ -1,0 +1,84 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #eeedec;
+  /* letter-spacing: 0.2em; */
+  font-size: 0.8em;
+  font-family: var(--font-family);
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+label {
+  position: relative;
+  left: 20px;
+  letter-spacing: 0.2em;
+}
+
+input {
+  margin-top: 10px;
+  width: 390px;
+  height: 40px;
+  position: relative;
+  left: 6px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  left: 150px;
+  background-color: #eee;
+  width: 100px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.icon > simg {
+  position: relative;
+  top: 5px;
+  right: 3px;
+}
+
+aside {
+  background: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px;
+  margin-top: -10px;
+  width: 355px;
+  position: relative;
+  top: -100px;
+}
+
+h2,
+.condition {
+  position: relative;
+  top: 20px;
+  letter-spacing: 0.2em;
+}
+
+.temp {
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
